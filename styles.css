@@ -17,37 +17,83 @@ body{
     align-items: center;
 }
 
-.hero{
+.hero {
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
-.logo{
+.logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
 }
 
-.nav{
+.nav {
     display: flex;
     gap: 20px;
 }
 
-.nav a{
+.nav a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px; 
     font-weight: 300;
 }
 
-.nav a:hover{
+.nav a:hover {
     color: #F9FAF8;
     text-decoration: none;
     font-weight: 300;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+
+.info-element {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-image{
+    border-radius: 20px;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-style: solid;
+    width: 200px;
+    height: 200px;  
+}
+
+.info-text{
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 170px;
+}
+
 .quote-container {
-    background-color: #e5e7eb;
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,16 +110,16 @@ body{
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1f2937;
+    color: #1F2937;
     
 }
 
-.quote-sign {
+.quote-author {
     align-self: flex-end;
     margin-right: 40px;
     font-size: 24px;
     font-weight: bold;
-    color: #1f2937;
+    color: #1F2937;
 }
 
 footer {
